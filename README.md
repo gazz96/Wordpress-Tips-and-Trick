@@ -39,7 +39,7 @@ function callback_for_html($post)
 {
     // this is how to get registered custom_metabox_field;
     // don't forget to add true in the of function get_post_meta to return single value
-    $custom_meta_box_field = get_post_meta($post->ID, 'custom_metabox_field', true);
+    $custom_metabox_field = get_post_meta($post->ID, 'custom_metabox_field', true);
     ?>
     <p>
       <label>Custom metabox field</label>
